@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='tsp_solver',
+    name='tsp_solver_Tasnim',
     version='0.1.0',
     packages=['tsp_solver', 'tsp_solver.algorithms'],
     description='A simple TSP solver library.',
