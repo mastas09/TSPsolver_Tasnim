@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='tsp_solver_Tasnim',
+    name='tsp_solver_Tasnim',  # ✅ PyPI-safe unique name
     version='0.1.0',
-    packages=['tsp_solver_Tasnim', 'tsp_solver_Tasnim.algorithms'],
-    description='A simple TSP solver library.',
-    author='Your Name',
-    author_email='your_email@example.com',
-    url='https://github.com/yourusername/TSPsolver_Tasnim',
+    packages=find_packages(),  # ✅ This auto-finds your package and sub-packages
+    description='TSP Solver with multiple algorithms (Random Search, Hill Climbing, Simulated Annealing, A*).',
+    author='Masrura Tasnim',
+    author_email='masrura.niti@gmail.com',
+    url='https://github.com/mastas09/tsp_solver_Tasnim',  # ✅ Your actual repo link
     license='MIT',
     install_requires=[],
     python_requires='>=3.6',
