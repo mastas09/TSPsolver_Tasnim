@@ -1,4 +1,4 @@
-from tsp_solver import random_search, hill_climbing, simulated_annealing
+from tsp_solver_Tasnim import random_search, hill_climbing, simulated_annealing
 
 cities = [(0, 0), (1, 1), (2, 2), (3, 3)]
 
