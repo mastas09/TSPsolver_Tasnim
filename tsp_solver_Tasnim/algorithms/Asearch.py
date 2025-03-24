@@ -1,5 +1,5 @@
 import heapq
-from tsp_solver.utils import calculate_total_distance
+from tsp_solver_Tasnim.utils import calculate_total_distance
 
 def solve_tsp(cities):
     start = cities[0]
@@ -14,5 +14,4 @@ def solve_tsp(cities):
             if city not in visited:
                 new_path = path + [city]
                 heapq.heappush(queue, (calculate_total_distance(new_path), new_path, visited | {city}))
-    return queue[0][1], queue[0][0]  # heuristic solution
-
+    return queue[0][1], queue[0][0]
