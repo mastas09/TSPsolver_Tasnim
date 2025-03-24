@@ -1,5 +1,5 @@
 import unittest
-from tsp_solver.algorithms.random_search import solve_tsp
+from tsp_solver_Tasnim.algorithms.random_search import solve_tsp
 
 def test_random_search():
     cities = [(0, 0), (1, 1), (2, 2)]
