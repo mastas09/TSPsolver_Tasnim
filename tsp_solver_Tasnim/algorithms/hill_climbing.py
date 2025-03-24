@@ -1,5 +1,5 @@
 import random
-from tsp_solver.utils import calculate_total_distance, get_neighbors
+from tsp_solver_Tasnim.utils import calculate_total_distance, get_neighbors
 
 def solve_tsp(cities, iterations=1000):
     current_route = random.sample(cities, len(cities))
